@@ -6,31 +6,40 @@
 </head>
 
 <body>
-    <video class="bg_video" onloadedmetadata="this.muted = true" playsinline autoplay muted loop>
-        <source src="waves_-_5144 (Original).mp4" type="video/mp4">
-    </video>
-    <div class="outerdiv">
-        <div id="innerdiv">
+
+    <div id="hello">
+        <video class="bg_video" onloadedmetadata="this.muted = true" playsinline autoplay muted loop>
+            <source src="waves_-_5144 (Original).mp4" type="video/mp4">
+        </video>
+        <div class="outerdiv">
             <img src="img/black-and-white-bride-bride-and-groom-couple.jpg">
-            <h1 id="wel">WELCOME</h1>
-            
-            <button type="button" id="brideButton">Bride ></button>
-            <button type="button" id="GroomButton">Groom ></button>
-           
+            <div id="innerdiv">
+                
+                <h1 id="wel">WELCOME</h1>
+
+                <button type="button" class="button">Bride ></button>
+                <button type="button" class="button">Groom ></button>
+
+            </div>
         </div>
-    </div>
-    <div class="down">All Rights Reserved @ 2024 <a href="google.com" id="prspa">Prasanna</a></div>
+        <div class="down">All Rights Reserved @ 2024 <a href="google.com" id="prspa">Prasanna</a></div>
         <script>
-        document.getElementById('brideButton').addEventListener('click', button1);
-        document.getElementById('GroomButton').addEventListener('click', button2);
+            var buttons = document.getElementsByClassName("button");
 
-        function button1() {
-            window.location.href = "contact.html";
-        }
-               function button2() {
-            window.location.href = "contact.html";
-        }
-            
+            for (var i = 0; i < buttons.length; i++) {
+                buttons[i].addEventListener('click', buttonClick);
+            }
 
-    </script>
+            function buttonClick() {
+                window.location.href = "contact.html";
+
+                this.classList.add("button-clicked");
+                setTimeout(() => {
+                    this.classList.remove("button-clicked");
+                }, 400);
+            }
+        </script>
+    </div>
 </body>
+
+</html>
