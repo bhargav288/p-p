@@ -1,6 +1,6 @@
 .outerdiv {
-    width: 97vw;
-    height: 100vh;
+    height: 90svh;
+    width: 80svw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    background-image: url(img/black-and-white-bride-bride-and-groom-couple.jpg);
 }
 
 img {
@@ -51,19 +52,16 @@ button {
         height: 70%;
     }
 }
-
-
-.bg_video {
-    width: 500vh;
-    height: auto;
-    position: fixed;
+.bg_video{
+    z-index: -2;
+    position: absolute;
+    top: 0;
     bottom: 0;
     left: 0;
-    z-index: -2;
-
+    right: 0;
 }
 .down {
-    width: auto;
+    width: 60vw;
     height: 50px;
     background-color: rgb(59, 41, 41);
     text-align: center;
@@ -84,4 +82,9 @@ button {
 
 #prspa {
     color: rgb(187, 75, 75);
+}
+
+body{
+    margin: 0;
+    width: 100%;
 }
