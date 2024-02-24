@@ -3,29 +3,39 @@
 <head>
     <title>assignment</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="script" href="script.js">
 </head>
 
 <body>
+    <video class="bg_video" src="waves_-_5144 (Original).mp4" autoplay muted loop >
 
-    <div id="hello">
-        <video class="bg_video" onloadedmetadata="this.muted = true" playsinline autoplay muted loop>
-            <source src="waves_-_5144 (Original).mp4" type="video/mp4">
-        </video>
         <div class="outerdiv">
             <img src="img/black-and-white-bride-bride-and-groom-couple.jpg">
             <div id="innerdiv">
-                
+
                 <h1 id="wel">WELCOME</h1>
 
-                <button type="button" class="button">Bride ></button>
-                <button type="button" class="button">Groom ></button>
+                <button type="button" class="button">Bride &gt</button>
+                <button type="button" class="button">Groom &gt</button>
 
             </div>
         </div>
         <div class="down">All Rights Reserved @ 2024 <a href="google.com" id="prspa">Prasanna</a></div>
-        <script>
-            var buttons = document.getElementsByClassName("button");
 
+        <script>
+            var screenWidth = window.screen.width;
+var screenHeight = window.screen.height;
+var video = document.getElementsByClassName("bg_video")[0];
+
+video.width = screenWidth;
+
+video.addEventListener('loadedmetadata', function() {
+    video.height = (screenWidth / video.videoWidth) * video.videoHeight;
+    alert("hlo");
+});
+
+            var buttons = document.getElementsByClassName("button");
+         
             for (var i = 0; i < buttons.length; i++) {
                 buttons[i].addEventListener('click', buttonClick);
             }
@@ -38,8 +48,9 @@
                     this.classList.remove("button-clicked");
                 }, 400);
             }
+
+
         </script>
-    </div>
 </body>
 
 </html>
