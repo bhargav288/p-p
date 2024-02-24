@@ -3,11 +3,10 @@
 <head>
     <title>assignment</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="script" href="script.js">
 </head>
 
 <body>
-    <video class="bg_video" src="waves_-_5144 (Original).mp4" autoplay muted loop  style="background-color: aqua;" >
+    <video class="bg_video" src="waves_-_5144 (Original).mp4" autoplay muted loop style="background-color: aqua;"></video>
 
         <div class="outerdiv">
             <div id="innerdiv">
@@ -17,24 +16,16 @@
 
             </div>
         </div>
+
+
         <div class="down">
-            All Rights Reserved @ 2024 <a href="google.com" id="prspa">Prasanna</a>
+            All Rights Reserved @ 2024 
+            <a href="google.com" id="prspa">Prasanna</a>
         </div>
 
         <script>
-            var screenWidth = window.screen.width;
-var screenHeight = window.screen.height;
-var video = document.getElementsByClassName("bg_video")[0];
-
-video.width = screenWidth;
-
-video.addEventListener('loadedmetadata', function() {
-    video.height = (screenWidth / video.videoWidth) * video.videoHeight;
-    alert("hlo");
-});
-
             var buttons = document.getElementsByClassName("button");
-         
+
             for (var i = 0; i < buttons.length; i++) {
                 buttons[i].addEventListener('click', buttonClick);
             }
@@ -48,6 +39,15 @@ video.addEventListener('loadedmetadata', function() {
                 }, 400);
             }
 
+            var screenWidth = window.innerWidth;
+            var screenHeight = window.innerHeight;
+            var video = document.getElementsByClassName("bg_video")[0];
+
+            video.width = screenWidth;
+
+            video.addEventListener('loadedmetadata', function () {
+                video.height = (screenWidth / video.videoWidth) * video.videoHeight;
+            });
 
         </script>
 </body>

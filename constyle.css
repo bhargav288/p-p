@@ -1,32 +1,45 @@
 .bg_video {
-    height: 600px;
+    height: 580px;
     width: 99.6%;
     border-style: hidden;
     padding: 2px;
     margin-top: -10px;
-    background-color: black;
+    background-color: black;  
+}
+button{
+
 }
 .pkuthuru {
     width:95%;
     height: 8000px;
     border: 1px solid black;
     margin: auto;
+    
+    
+}
+#bot {
+    background-color: rgb(240, 68, 68);
+    color: white;
+    width: 70px;
+    letter-spacing: 4px;
+    height: 25px;
+    margin-top: 20px;
 }
 #photo1 {
     width:100%;
-    height:510px;
+    height:550px;
     background-image: url("istockphoto-614720838-612x612.jpg");
     background-size: 100% 100%;
     margin: 0%;
-    margin-top: -60px;
     size: large;
     text-align: center;
     text-decoration: blueviolet;
 }
 #letter {
-    font-size: 50px;
+    font-size: 55px;
     color: blue;
     margin-top: 60px;
+    
 }
 #time {
     color: black;
@@ -36,18 +49,20 @@
     margin-left: -50px;
     word-spacing: -2px;
     margin-top: -7PX;
+
 }
 #we {
-    font-size: 25px;
+    font-size: 29px;
     color: red;
     letter-spacing: 0cm;
     margin-top: 10px;
 }
 #save {
-    font-size: 20px;
+    font-size: 29px;
     color:black;
     margin-top: 10px;
     word-spacing: 2px;
+    
 }
 #pavan {
     display: flex;
@@ -57,29 +72,19 @@
 }
 #dece {
     color: red;
-    font-size: 30px;
+    font-size: 36px;
     margin-left: 15px;
     word-spacing: 5px;
 }
-#bot {
-    background-color: red;
-    color: white;
-    border-radius: 20px;
-    width: 70px;
-    letter-spacing: 4px;
-    border: none;
-    height: 25px;
-    margin-top: 20px;
-    text-decoration: none;
-    display: inline-block;
-    text-align: center;
-}
-# pslid {
+
+
+#pslid {
     height: 50px;
     width: 40px;
     border: 1px solid red;
     background-color: blue;
     margin: 30px;
+
 }
 #slider {
     overflow: hidden;
@@ -94,8 +99,8 @@
 #slider figure img {
     float: left;
     width: 20%;
-    height: 600px;
 }
+
 @keyframes slider {
     0% {
         left: 0;
@@ -131,6 +136,8 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    
+    
 }
 #dha {
     font-size: 25px;
@@ -236,6 +243,9 @@
     margin-top: -25px;
     border: none;
     background-image: url('conflower2.jpg');
+
+    
+    
 }
 #hal {
     color: red;
@@ -243,12 +253,14 @@
     margin: 20px;
     margin-right: 267px;
     margin-top: 50px;
+    
 }
 #dec3 {
     color:rgb(99, 39, 99);
     font-size: 30px;
     margin-top: -25px;
     margin-left: 20px;
+    
 }
 #let {
     font-size: 27px;
@@ -256,15 +268,18 @@
     margin-top: 25px;
 }
 #am {
+    
     color:rgb(99, 39, 99);
     font-size: 30px;
     margin-top: 15px;
     margin-left: 20px;
+
 }
 #foo {
     font-size: 27px;
     padding-left: 20px;
     margin-top: 20px;
+
 }
 #venu {
     color:rgb(99, 39, 99);
@@ -272,6 +287,7 @@
     margin-top: 20px;
     margin-left: 20px;
     word-spacing: 2px;
+
 }
 #view {
     height: 35px;
@@ -315,6 +331,7 @@
     margin-left: 70px;
     margin-top: 50px;
     border: 5px solid black;
+
 }
 #sgth {
     color: red;
@@ -330,6 +347,8 @@
     margin-left: 430px;
     margin-top: -102px;
     border: none;
+    
+
 }
 #htee {
     font-size: 33px;
@@ -347,6 +366,7 @@
     z-index: 3;
     background-color: antiquewhite;
     position: relative;
+
 }
 #thodpikur {
     width: 550px;
@@ -365,9 +385,12 @@
     margin-top: 55px;
     margin-left: 20px;
     margin-right: -10px;
+    
+
 }
 #peconfl {
     margin-left: -20px;
+    
     margin-right: -40px;
 }
 #knotbox {
@@ -376,6 +399,7 @@
     border: 5px solid black;
     margin-left: 130px;
     margin-top: 50px;
+
 }
 #tiebox {
     width: 550px;
@@ -386,6 +410,7 @@
     z-index: 3;
     background-color: antiquewhite;
     position: relative;
+
 }
 #larrow {
     width: 450px;
@@ -404,6 +429,7 @@
     margin-left: 270px;
     margin-top: 50px;
     justify-content: center;
+
 }
 #lin {
     color: red;
@@ -411,6 +437,7 @@
     letter-spacing: -4px;
     word-spacing: 10px;
     margin-left: 100px;
+
 }
 #dhwea {
     font-size: 25px;
@@ -507,4 +534,5 @@
 #diam1 {
     text-align: center;
     margin-top: 30px;
+
 }
