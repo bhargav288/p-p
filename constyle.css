@@ -1,46 +1,140 @@
+body {}
+
+.pkuthuru {
+    width: 95%;
+    height: 8000px;
+    border: 1px solid black;
+    margin: auto;
+
+}
+
 .bg_video {
-    height: 580px;
+    height: 30vh;
     width: 99.6%;
     border-style: hidden;
     padding: 2px;
     margin-top: -10px;
-    background-color: black;  
+    background-color: black;
 }
-button{
 
-}
-.pkuthuru {
-    width:95%;
-    height: 8000px;
-    border: 1px solid black;
-    margin: auto;
-    
-    
-}
-#bot {
-    background-color: rgb(240, 68, 68);
-    color: white;
-    width: 70px;
-    letter-spacing: 4px;
-    height: 25px;
-    margin-top: 20px;
-}
 #photo1 {
-    width:100%;
-    height:550px;
-    background-image: url("istockphoto-614720838-612x612.jpg");
+    width: 100%;
+    height: 40vh;
+    background-image: url("img/photo1.png");
+    object-fit: fill;
     background-size: 100% 100%;
     margin: 0%;
     size: large;
     text-align: center;
     text-decoration: blueviolet;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+#clock {
+    font-size: 7rem;
+    font-weight: bold;
+}
+
 #letter {
-    font-size: 55px;
+    font-size: 7.5rem;
     color: blue;
-    margin-top: 60px;
-    
 }
+
+#we {
+    font-size: 2.8rem;
+    color: rgb(255, 0, 102);
+    letter-spacing: 0cm;
+    font-weight: bolder;
+}
+
+#pavan {
+    display: flex;
+    justify-content: baseline;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#save {
+    font-size: 2.6rem;
+    color: black;
+    word-spacing: 2px;
+    font-weight: lighter;
+}
+
+#dece {
+    color: rgb(255, 0, 102);
+    font-size: 3rem;
+    margin-left: 15px;
+    word-spacing: 5px;
+    font-weight: bolder;
+}
+
+#SaveTheDate {
+    width: 170px;
+    height: 70px;
+    font-size: 1.5rem;
+}
+
+#slider {
+    overflow: hidden;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 10s slider infinite;
+}
+
+#slider figure img {
+    float: left;
+    width: 20%;
+    height: 34vh;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    20% {
+        left: 0;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -300%;
+    }
+
+    95% {
+        left: -300%;
+    }
+
+    100% {
+        left: -400%;
+    }
+}
+
+/* 
 #time {
     color: black;
     font-size: 60px;
@@ -51,32 +145,6 @@ button{
     margin-top: -7PX;
 
 }
-#we {
-    font-size: 29px;
-    color: red;
-    letter-spacing: 0cm;
-    margin-top: 10px;
-}
-#save {
-    font-size: 29px;
-    color:black;
-    margin-top: 10px;
-    word-spacing: 2px;
-    
-}
-#pavan {
-    display: flex;
-    justify-content: baseline;
-    justify-content: center;
-    margin-top: 20px;
-}
-#dece {
-    color: red;
-    font-size: 36px;
-    margin-left: 15px;
-    word-spacing: 5px;
-}
-
 
 #pslid {
     height: 50px;
@@ -86,157 +154,114 @@ button{
     margin: 30px;
 
 }
-#slider {
-    overflow: hidden;
-}
-#slider figure {
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    animation: 10s slider infinite;
-}
-#slider figure img {
-    float: left;
-    width: 20%;
-}
 
-@keyframes slider {
-    0% {
-        left: 0;
-    }
-    20% {
-        left: 0;
-    }
-    25% {
-        left: -100%;
-    }
-    45% {
-        left: -100%;
-    }
-    50% {
-        left: -200%;
-    }
-    70% {
-        left: -200%;
-    }
-    75% {
-        left: -300%;
-    }
-    95% {
-        left: -300%;
-    }
-    100% {
-        left: -400%;
-    }
-}
+#bot {
+    background-color: rgb(240, 68, 68);
+    color: white;
+    width: 70px;
+    letter-spacing: 4px;
+    height: 25px;
+    margin-top: 20px;
+} */
+
 #box3 {
-    height: 50px;
-    width: 700px;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    
-    
+    height: 20vh;
+    margin-top: 20px;
 }
-#dha {
-    font-size: 25px;
+
+.box3-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.MwedsW {
+    font-size: 3.5rem;
     word-spacing: 5px;
-    margin-right: 20px;
     text-align: center;
+
 }
-#wed {
-    font-size: 25px;
-    color: red;
-    margin-right: 20px;
-}
-#arj {
-    font-size: 25px;
-    word-spacing: 5px;
-    margin-right: 20px;
-}
+
 #flo1 {
-    width: 150px;
-    height: 100px;
-    padding-left: 290px;
-    margin-top: -20px;
+    margin: 0 auto 0;
 }
+
+#flo1 img {
+    width: 200px;
+    height: 150px;
+}
+
 #fbox1 {
     display: flex;
     justify-content: end;
+    gap: 20px;
 }
-#girl {
-    width: 300px;
-    height: 200px;
-}
-#name1 {
+
+#name {
     color: red;
-    text-align: center;
-    width: 200px;
-    height: 70px;
-    padding-top: 120px;
-    padding-bottom: -40px;
-    font-size: 23px;
-    margin-right: 25px;
-}
-#redd1 {
-    margin-top: 15px;
-}
-#fbox2 {
+    font-size: 3rem;
+    font-weight: bold;
     display: flex;
-    margin-top: 80px;
-}
-#name2 {
-    color: red;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
-    width: 250px;
-    height: 70px;
-    padding-top: 140px;
-    padding-bottom: -40px;
-    font-size: 23px;
-    margin-left: 25px;
+    margin: 0 auto 0;
+
 }
-#redd2 {
-    margin-top: 15px;
+
+.simg {
+    width: 45vw;
+    height: 15vh;
 }
-#midf {
-    width: 400px;
-    height: 215px;
-    margin-left: 200px;
-    margin-top: -35px;
+
+.name-b-img{
+    position: relative;
+    bottom: 0;
 }
+
+.part-2{
+
+}
+
 #fun {
     color: black;
     text-align: center;
-    font-size: 35px;
+    font-size:3rem;
     letter-spacing: 8px;
+    margin-top: 10px;
 }
+
+
 #diam {
     text-align: center;
-    margin-top: -80px;
 }
-#mabox1 {
-    width: 550px;
-    height: 550px;
-    margin-left: 130px;
-    border: 5px solid black;
+/* llll */
+
+.mabox1img {
+    height: 41vh;
+    width: 85%;
+    border: 9px solid rgb(0, 0, 0);
 }
+
 #haldbox {
-    width: 550px;
-    height: 420px;
-    margin-left: 130px;
-    margin-top: 50px;
+    height: 31vh;
+    width: 80%;
+    margin: 0 auto;
     border: 5px solid black;
     z-index: 3;
     background-color: antiquewhite;
     position: relative;
 }
+
 #fril {
     display: flex;
     backface-visibility: hidden;
     margin-top: -45px;
 }
-#conf{
+
+#conf {
     width: 50px;
     height: 50px;
     margin-left: 350px;
@@ -244,51 +269,58 @@ button{
     border: none;
     background-image: url('conflower2.jpg');
 
-    
-    
+
+
 }
+
 #hal {
     color: red;
     font-size: 45px;
     margin: 20px;
     margin-right: 267px;
     margin-top: 50px;
-    
+
 }
+
 #dec3 {
-    color:rgb(99, 39, 99);
+    color: rgb(99, 39, 99);
     font-size: 30px;
     margin-top: -25px;
     margin-left: 20px;
-    
+
 }
+
 #let {
     font-size: 27px;
     padding-left: 20px;
     margin-top: 25px;
 }
+
 #am {
-    
-    color:rgb(99, 39, 99);
+
+    color: rgb(99, 39, 99);
     font-size: 30px;
     margin-top: 15px;
     margin-left: 20px;
 
 }
+
 #foo {
     font-size: 27px;
     padding-left: 20px;
     margin-top: 20px;
 
 }
+
 #venu {
-    color:rgb(99, 39, 99);
+    color: rgb(99, 39, 99);
     font-size: 27px;
     margin-top: 20px;
     margin-left: 20px;
     word-spacing: 2px;
 
 }
+
 #view {
     height: 35px;
     width: 99px;
@@ -317,6 +349,7 @@ button{
     position: relative;
     rotate: 45deg;
 }
+
 #sangetham {
     width: 550px;
     height: 413px;
@@ -324,6 +357,7 @@ button{
     margin-top: 50px;
     border: 5px solid black;
 }
+
 #sang {
     width: 550px;
     height: 400px;
@@ -333,6 +367,7 @@ button{
     border: 5px solid black;
 
 }
+
 #sgth {
     color: red;
     font-size: 32px;
@@ -340,16 +375,19 @@ button{
     margin-top: 20px;
     margin-right: 40px;
 }
+
 #frist2 {
     display: flex;
 }
+
 #conf2 {
     margin-left: 430px;
     margin-top: -102px;
     border: none;
-    
+
 
 }
+
 #htee {
     font-size: 33px;
     color: red;
@@ -357,6 +395,7 @@ button{
     margin-left: 20px;
     margin-right: 247px;
 }
+
 #sangbox {
     width: 550px;
     height: 350px;
@@ -368,6 +407,7 @@ button{
     position: relative;
 
 }
+
 #thodpikur {
     width: 550px;
     height: 500px;
@@ -376,6 +416,7 @@ button{
     margin-top: 50px;
     background-image: url('thopilkur.jpg');
 }
+
 #pelik {
     font-size: 28px;
     width: 700px;
@@ -385,14 +426,16 @@ button{
     margin-top: 55px;
     margin-left: 20px;
     margin-right: -10px;
-    
+
 
 }
+
 #peconfl {
     margin-left: -20px;
-    
+
     margin-right: -40px;
 }
+
 #knotbox {
     width: 550px;
     height: 367px;
@@ -401,6 +444,7 @@ button{
     margin-top: 50px;
 
 }
+
 #tiebox {
     width: 550px;
     height: 300px;
@@ -412,6 +456,7 @@ button{
     position: relative;
 
 }
+
 #larrow {
     width: 450px;
     height: 53px;
@@ -421,6 +466,7 @@ button{
     margin-left: 175px;
     margin-top: 80px;
 }
+
 #wll {
     color: red;
     font-size: 40px;
@@ -431,6 +477,7 @@ button{
     justify-content: center;
 
 }
+
 #lin {
     color: red;
     font-size: 40px;
@@ -439,6 +486,7 @@ button{
     margin-left: 100px;
 
 }
+
 #dhwea {
     font-size: 25px;
     color: black;
@@ -446,6 +494,7 @@ button{
     word-spacing: 3px;
     margin-top: 30px;
 }
+
 #lsod {
     color: black;
     font-size: 16px;
@@ -455,6 +504,7 @@ button{
     word-spacing: -2px;
     margin-top: 7PX;
 }
+
 #time {
     color: black;
     font-size: 16px;
@@ -464,6 +514,7 @@ button{
     word-spacing: -2px;
     margin-top: 7PX;
 }
+
 #lilibox {
     width: 125px;
     height: 40px;
@@ -473,7 +524,7 @@ button{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing: 1px;
     text-align: center;
-    padding:5px;
+    padding: 5px;
     padding-top: 7PX;
     padding-bottom: 7px;
     word-spacing: -1.5px;
@@ -484,6 +535,7 @@ button{
     cursor: pointer;
     display: inline;
 }
+
 #larrow2 {
     width: 450px;
     height: 53px;
@@ -493,6 +545,7 @@ button{
     margin-left: -80px;
     margin-top: 20px;
 }
+
 #recpic {
     width: 550px;
     height: 550px;
@@ -502,11 +555,7 @@ button{
     margin-top: 50px;
     background-image: url('recptionpic.jpg');
 }
-#clock {
-    font-size: 70px;
-    margin-top: 50px;
-    padding-top: 40px;
-}    
+
 #circle {
     width: 800px;
     height: 250px;
@@ -516,6 +565,7 @@ button{
     margin-top: 70px;
     padding-bottom: 100px;
 }
+
 #content {
     color: black;
     font-size: 35px;
@@ -525,12 +575,15 @@ button{
     line-height: 50px;
     padding-top: 10px;
 }
+
 #to {
     padding-left: 160px;
 }
+
 #us {
     padding-left: 160px;
 }
+
 #diam1 {
     text-align: center;
     margin-top: 30px;
